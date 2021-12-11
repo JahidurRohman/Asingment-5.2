@@ -1,0 +1,284 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ a {
+ 	text-decoration: none;
+ }
+ header {
+ 	width: 100%;
+ 	padding: 20px 0px;
+ }
+ .container {
+ 	width: 1140px;
+ 	margin: 0px auto;
+ }
+ .nav {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .left {
+ 	display: flex;
+ }
+ .left img{
+ 	width: 135px;
+    height: 55px;
+ }
+  
+
+ .left ul li {
+ 	display: inline-block;
+ 	line-height: 2.9;
+    margin-left: 40px;
+ 	 
+ }
+.left ul li a {
+	font-family: 'Poppins', sans-serif;
+	font-size:18px;
+	color: #58556A;
+	font-weight: 700;
+}
+.right button {
+	padding: 15px 20px;
+	background: #FF6162;
+	border: none;
+	border-radius: 6px;
+}
+.right button a {
+	font-family: 'Poppins', sans-serif;
+	font-size:18px;
+	color: #fff;
+	font-weight: 500;
+}
+
+
+
+
+
+.first-banner-section {
+	width: 100%;
+	padding: 100px 0;
+}
+.banner-content {
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+.ban-right img{
+	width: 100%;
+	border: 2px solid #FF6162;
+
+}
+.ban-left h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size:55px;
+	color: #292640;
+	font-weight: 700;
+	margin-bottom: 20px;
+} 
+
+.ban-left p {
+	font-family: 'Poppins', sans-serif;
+	font-size:18px;
+	color: #B5B7C7;
+	font-weight: 400;
+	margin: 0 138px 20px 0px;
+}
+ .ban-left i {
+ 	font-size:24px;
+	color: #d3d3d3;
+	font-weight: 400;
+ }
+
+
+
+
+
+
+.boxes-main-section {
+	width: 100%;
+	padding: 60px 0px;
+}
+.box-content {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.main h2, .main p {
+	text-align: center;
+}
+.main h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	color: #292641;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.main .san{
+	font-family: 'Poppins', sans-serif;
+	font-size:12px;
+	color: #B5B7C7;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.box p {
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	color: #000;
+	font-weight: 500;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.box img{
+	padding: 0px 5px;
+	border-radius: 4px;
+	box-shadow: ;
+}
+.box:hover{
+	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.20), 0 6px 20px 0  rgba(0,0,0,0.20);
+	cursor: pointer;
+	transition: .5s;
+
+}
+
+
+
+
+
+.section {
+	width: 100%;
+	padding: 150px 0px;
+}
+
+.div {
+	width: 2px;
+    height: 60px;
+    margin: 0 auto;
+    background: #B5B7C7;
+    }
+
+
+
+.feature-section {
+	width: 100%;
+	padding: 60px 0;
+}
+
+.main-div {
+	text-align: center;
+}
+.feature-content {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.main-div h2{
+	font-family: 'Poppins', sans-serif;
+	font-size:30px;
+	color: #000;
+	font-weight: 600;
+/* 	text-align: center; */
+	margin-bottom: 10px;
+}
+.main-div .p {
+	margin-bottom: 40px;
+}
+
+.main-div p i{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	color: #000;
+	font-weight: 400;
+ 
+}
+
+.boxes {
+	background: #F5F5F5;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+}
+.boxes .fa {
+	 width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 2.0;
+    font-size: 24px;
+    text-align: center;
+    color: #FF6162;
+    margin: 5px 0 14px 0;
+}
+
+.boxes h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	color: #000;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+
+.boxes p {
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	color: #a5a0a0;
+	font-weight: 400;
+	/* margin: 0 0 10px; */
+}
+.boxes:hover{
+	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.20), 0 6px 20px 0  rgba(0,0,0,0.20);
+	cursor: pointer;
+	transition: .5s;
+
+}
+.boxes i:hover{
+	/* box-shadow: 0px 6px 8px 0px #F5F5F5; */
+	transform:   scale(.9);
+	transition: 0.5s;
+}
+
+
+
+
+
+
+    		/* Footer Css Style Coding  */
+
+
+.footer-section {
+	width: 100%;
+	/* height: 70vh; */
+	background: #292640;
+}
+
+.content {
+	text-align: center;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.center p{
+	font-family: 'Poppins', sans-serif;
+	font-size:56px;
+	color: #fff;
+	font-weight: 900;	 
+	width: 65%;
+    margin: 40px 200px;
+}
+.center button{
+	padding: 20px 25px;
+	background: #FF6162;
+	border: none;
+	border-radius: 6px;
+}
+.center button a {
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	color: #fff;
+	font-weight: 500;
+}
